@@ -33,7 +33,7 @@
   .Login-container{
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: purple;
     height: 530px;
     width: 400px;
     justify-content: center;
