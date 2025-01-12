@@ -1,5 +1,5 @@
 .bg-login {
-    background-image: url("./About.png");
+    background-image: url("/About.png");
     background-size: cover;
     width: 100vw; /* Full width of the viewport */
     height: 100vh; /* Full height of the viewport */
