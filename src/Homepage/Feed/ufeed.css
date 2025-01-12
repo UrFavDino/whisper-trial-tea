@@ -1,0 +1,259 @@
+.feed-post{
+    background-color: white;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.699);
+    height: max-content;
+    width: 81vh;
+    margin-top: 20px;    
+}
+
+.feed-main{
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: 100vh;
+    width: 82vh;    
+    border-radius: 20px;
+    margin-left: -70px;
+    overflow: scroll; /* Enable scrolling */
+}
+
+/* Hide the scrollbar on WebKit browsers (Chrome, Safari, Edge) */
+.feed-main::-webkit-scrollbar {
+  display: none; /* This will hide the scrollbar */
+}
+.feed-post-uploaded{
+    display: flex;
+    flex-direction: column;
+}
+
+.post-fix{
+    background-color: white;
+    font-size: 13px;
+}
+
+.post-user-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.additionss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.no-arrow::after {
+    display: none;
+}
+
+
+.just{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.post-pfp{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    margin-right: 10px;
+    background-image: url('../pfp.jpg');
+    background-size: cover;
+}
+
+.post-username{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.post-time-uploaded{
+    color: gray;
+}
+
+.post-about{
+    justify-content: start;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: -12px;
+}
+
+.post-img{
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    background-size: cover;
+    margin-bottom: -40px;
+}
+
+.post-reaction{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: -71px;
+}
+
+.post-like, .post-comment{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+    background-color: white;
+    padding: 0px 15px;
+    height: 30px;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.post-about-topic{
+    background-color: white;
+    margin-top: 20px;
+    margin-left: -60px;
+}
+.post-like:hover, .post-comment:hover{
+    background-color: gray;
+    color: white;
+}
+
+.comment-item-details{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.addition{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.delete-comment{
+    margin-top: 20px;
+    margin-right: 20px;
+    border: none;
+    background-color: white;
+}
+
+.delete-post{
+    margin-top: 0px;
+    margin-right: 20px;
+    border: none;
+    background-color: white;
+}
+
+.comment-item-pfp{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url('../pfp.jpg');
+    background-size: cover;
+    margin-right: 15px;
+}
+
+.comment-item-username{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.comment-item-time-uploaded{
+    color: gray;
+}
+
+.comment-text{
+    margin-top: -2px;
+    margin-bottom: 10px;
+    margin-left: 75px;
+
+}
+
+.comment-actions{
+    margin-bottom: 2px;
+    margin-left: 75px;
+        display: flex;
+    flex-direction: row;
+}
+
+.comment-like{
+    background-color: white;
+    margin-left: -15px;
+    padding: 0px 15px;
+    height: 30px;
+}
+
+.comment-like:hover{
+    background-color: gray;
+    color: white;
+    padding: 0px 18px;
+    height: 30px;
+    border-radius: 25px;
+}
+
+.comments-list{
+    border-top: 1px solid gray;
+    margin-bottom: 20px;
+    width: 80vh;
+    margin-left: -80px;
+}
+
+.add-comment-post{
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    height: 30px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.add-comment-placeholder{
+    padding: 0px 20px;
+    height: 30px;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    font-size: 12px;
+    border: none;
+    margin-left: -40px;
+    margin-top: 10px;
+}
+
+.add-comment-placeholder:hover{
+    border: 0.1px solid gray;
+}
+
+.add-comment-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-left: -60px;
+    margin-top: 0px;
+}
+
+
+.add-comment-pfp{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url('../pfp.jpg');
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.add-comment-username{
+    font-weight: bold;
+    margin-right: 10px;
+}

@@ -1,0 +1,15 @@
+.Navs{
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-notif{
+    justify-content: end;
+    text-align: right;
+}
+
+.navs-title{
+    font-family: 'Leckerli One', cursive;
+
+}
