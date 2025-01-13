@@ -19,7 +19,7 @@ function Login() {
       navigate('/home');
     } else {
       alert('Invalid username or password');
-    }
+    } 
   };
 
   return (

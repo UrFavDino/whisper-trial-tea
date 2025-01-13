@@ -4,9 +4,20 @@ import '../Login/LoginAdmin.css';
 
 function Login() {
   const [showPassword, setShowPassword] = useState(false);
+  const navigate = useNavigate();
 
   const togglePasswordVisibility = () => {
     setShowPassword(prevState => !prevState);
+  };
+
+  const handleLogin = () => {
+    // Check if the username and password match the hardcoded credentials
+    if (username === 'Admin' && password === 'admin01') {
+      // Redirect to the /home page if credentials are correct
+      navigate('/home');
+    } else {
+      alert('Invalid username or password');
+    } 
   };
 
   return (
@@ -41,7 +52,7 @@ function Login() {
               Show password
             </label>
 
-            <button className='btn-logins'>
+            <button className='btn-logins' onClick={handleLogin}>
               Login
             </button>
 
