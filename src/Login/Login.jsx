@@ -30,7 +30,7 @@ function Login() {
           rel="stylesheet"
         />
         <div className='Login-container'>
-          <div className='title'>Whisper'ss</div>
+          <div className='title'>Whisper's</div>
           <div className='Login-form'>
             <input
               placeholder='Username'
