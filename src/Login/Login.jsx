@@ -30,7 +30,11 @@ function Login() {
           rel="stylesheet"
         />
         <div className='Login-container'>
+<<<<<<< HEAD
           <div className='title'>Whisper'ss</div>
+=======
+          <div className='title'>Whispers</div>
+>>>>>>> 54249a92f513b898b150d9ef942c0b0bc20392cb
           <div className='Login-form'>
             <input
               placeholder='Username'
